@@ -3,7 +3,7 @@ import { database } from '../models/database';
 const QRCode = require('qrcode');
 
 // 🔧 CONFIGURATIE: Verander dit IP adres naar je huidige werklocatie
-const BACKEND_HOST = '192.168.68.119'  // ← UPDATE DIT IP ADRES
+const BACKEND_HOST = 'pebbling-backend.onrender.com'  // ← UPDATE DIT IP ADRES
 const BACKEND_PORT = '3001'
 const BASE_URL = `http://${BACKEND_HOST}:${BACKEND_PORT}`
 

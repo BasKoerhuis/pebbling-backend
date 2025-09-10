@@ -1,4 +1,4 @@
 {
-  "backend_host": "192.168.68.119",
-  "backend_port": "3001"
+  "backend_host": "pebbling-backend.onrender.com",
+  "backend_port": "443"
 }

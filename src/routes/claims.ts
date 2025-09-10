@@ -4,8 +4,8 @@ const QRCode = require('qrcode');
 
 // 🔧 CONFIGURATIE: Verander dit IP adres naar je huidige werklocatie
 const BACKEND_HOST = 'pebbling-backend.onrender.com'  // ← UPDATE DIT IP ADRES
-const BACKEND_PORT = '3001'
-const BASE_URL = `http://${BACKEND_HOST}:${BACKEND_PORT}`
+const BACKEND_PORT = ''  // Not needed for HTTPS
+const BASE_URL = `https://${BACKEND_HOST}`
 
 const router = Router();
 

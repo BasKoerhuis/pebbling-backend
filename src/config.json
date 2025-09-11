@@ -1,4 +1,1 @@
-{
-  "backend_host": "pebbling-backend.onrender.com",
-  "backend_port": "443"
-}
+{"backend_host": "pebbling-backend.onrender.com", "backend_port": "443"}

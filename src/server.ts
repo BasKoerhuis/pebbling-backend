@@ -26,7 +26,7 @@ function readConfig() {
   } catch (error) {
     // Fallback config
     return {
-      backend_host: "0.0.0.0",
+      backend_host: "192.168.68.119",
       backend_port: "3001"
     };
   }
@@ -615,7 +615,7 @@ app.get('/admin', (req, res) => {
             </form>
             
             <p style="margin-top: 20px; font-size: 12px; color: #666;">
-                Voer je lokale IP adres in (bijv. 0.0.0.0)
+                Voer je lokale IP adres in (bijv. 192.168.68.119)
             </p>
         </div>
     </body>
@@ -703,6 +703,6 @@ app.use((req, res) => {
 })
 
 // Start server - alleen HTTP zoals oorspronkelijk
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, '192.168.68.119', () => {
   console.log(`🚀 HTTP Server running on http://${BACKEND_HOST}:${PORT}`)
 })

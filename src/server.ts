@@ -703,6 +703,6 @@ app.use((req, res) => {
 })
 
 // Start server - alleen HTTP zoals oorspronkelijk
-app.listen(PORT, '192.168.68.119', () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 HTTP Server running on http://${BACKEND_HOST}:${PORT}`)
 })
